@@ -54,15 +54,6 @@ sections:
       any layout and any screen.
     actions:
       - type: Button
-        label: Learn more
-        altText: ''
-        url: /test
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        elementId: ''
-      - type: Button
         label: Try it now
         altText: ''
         url: /
@@ -70,6 +61,15 @@ sections:
         icon: arrowRight
         iconPosition: right
         style: primary
+        elementId: ''
+      - type: Button
+        label: Learn more
+        altText: ''
+        url: /test
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
         elementId: ''
     colors: colors-f
     backgroundSize: full
